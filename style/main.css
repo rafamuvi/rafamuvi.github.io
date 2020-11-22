@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(61, 86, 196, .50), rgba(61, 86, 196, .50)100%);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 14px;
+    margin-top: 14px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: rgb(83, 77, 77);
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.foto-perfil{
+    width: 5%;
+}
